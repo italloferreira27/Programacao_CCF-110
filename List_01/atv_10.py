@@ -1,0 +1,5 @@
+r = float(input('Digite o r, a1 e o n de um P.A.: '))
+a1 = float(input('\na1: '))
+n = float(input('\nn: '))
+an = a1 + ((n - 1) * r)
+print('\nO valor de uma progeção aritmética é de: %.2f' %an)
