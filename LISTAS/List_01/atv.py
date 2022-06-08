@@ -34,3 +34,6 @@ if(sal > 2000.00):
   print('Novo salario: %.2f' %nsal)
   print('Reajuste ganho: %.2f' %rea)
   print('Em percentual: 4 %')
+
+  print(kkkkkk)
+  
