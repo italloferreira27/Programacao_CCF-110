@@ -20,4 +20,7 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 - [LISTA_07]()
 
 ## ALGUNS COMANDOS
-`print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`
+`print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`;
+`numbers.sort(reverse = True)` Coloca um número em ordem decrescente;
+`numbers.sort()` Coloca em ordem crescente;
+`import raandom` -> Biblioteca `random.randrange(0, 10)` Serve para gerar números aleatórios;
