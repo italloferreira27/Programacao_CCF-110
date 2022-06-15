@@ -1,4 +1,5 @@
 import random
+#matrizA = matrizB = matrizSOMA = [[0 for j in range(4)] for i in range(4)]
 matrizA = [[0 for j in range(4)] for i in range(4)]
 matrizB = [[0 for j in range(4)] for i in range(4)]
 matrizSOMA = [[0 for j in range(4)] for i in range(4)]

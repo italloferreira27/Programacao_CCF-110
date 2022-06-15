@@ -1,4 +1,4 @@
-matriz = [[0 for i in range(7)] for j in range(7)]
+matriz = [[0 for j in range(7)] for i in range(7)]
 n = int(input())
 cont = 0
 
