@@ -17,6 +17,7 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 - [LISTA_04](https://docs.google.com/document/d/1NaRTlcrje9hCdT0DRyGQPQoq7RxsmtlEL-6RZBf-K4Q/edit?usp=sharing)
 - [LISTA_05](https://docs.google.com/document/d/1TpNNr7HvtQjmiHfptx1YLhrRee7XJBE5WvafKSnWduY/edit?usp=sharing)
 - [LISTA_06](https://docs.google.com/document/d/1vcVO7cLhcaTW_3rfB3YSttshRPpEWaI4IZpPBusQ7ZE/edit?usp=sharing)
+- [LISTA_07](https://docs.google.com/document/d/1Tv7yOdpobqkRvVn-2ykqPmPp8HCFbcvETTFGZN4Ix_A/edit?usp=sharing)
 - [LISTA_08](https://docs.google.com/document/d/13RQuzvucoUxfEcuO0gLhj1WOzSeK541vQPy5agaokS0/edit?usp=sharing)
 
 ## ALGUNS COMANDOS
