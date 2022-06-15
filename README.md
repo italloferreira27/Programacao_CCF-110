@@ -17,10 +17,13 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 - [LISTA_04](https://docs.google.com/document/d/1NaRTlcrje9hCdT0DRyGQPQoq7RxsmtlEL-6RZBf-K4Q/edit?usp=sharing)
 - [LISTA_05](https://docs.google.com/document/d/1TpNNr7HvtQjmiHfptx1YLhrRee7XJBE5WvafKSnWduY/edit?usp=sharing)
 - [LISTA_06](https://docs.google.com/document/d/1vcVO7cLhcaTW_3rfB3YSttshRPpEWaI4IZpPBusQ7ZE/edit?usp=sharing)
-- [LISTA_07]()
+- [LISTA_08](https://docs.google.com/document/d/13RQuzvucoUxfEcuO0gLhj1WOzSeK541vQPy5agaokS0/edit?usp=sharing)
 
 ## ALGUNS COMANDOS
 `print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`;
+
 `numbers.sort(reverse = True)` Coloca um número em ordem decrescente;
+
 `numbers.sort()` Coloca em ordem crescente;
-`import raandom` -> Biblioteca `random.randrange(0, 10)` Serve para gerar números aleatórios;
+
+`import raandom` -> Biblioteca `x = random.randrange(0, 10)` Serve para gerar números aleatórios; [DUVIDA](https://pynative.com/python-get-random-float-numbers/)
