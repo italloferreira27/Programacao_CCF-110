@@ -7,7 +7,7 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 **♣ [These contents can be seen here](https://ava.ufv.br/course/view.php?id=6098) ♣**
 **♣ [Estes conteúdos podem ser vistos aqui](https://ava.ufv.br/course/view.php?id=6098) ♣**
 
-<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fs2.glbimg.com%2FeQhoFttsaAumBv-EKwk18wuIVGs%3D%2F0x0%3A620x413%2F984x0%2Fsmart%2Ffilters%3Astrip_icc()%2Fi.s3.glbimg.com%2Fv1%2FAUTH_cf9d035bf26b4646b105bd958f32089d%2Finternal_photos%2Fbs%2F2020%2Fj%2F0%2FqNY1ZATrGUPZoD0A0akA%2F2019-10-09-hr-6640.jpg&imgrefurl=https%3A%2F%2Fautoesporte.globo.com%2Fcarros%2Fcolunistas%2Fpost-coluna%2F2019%2F10%2Fteste-dirigimos-o-lamborghini-urus-o-suv-de-r-25-milhoes-que-faz-marca-vender-como-nunca.ghtml&tbnid=4M1KuQ5auAQdKM&vet=12ahUKEwibzfmX9qH4AhWNNbkGHSfGAyYQMygCegUIARDfAQ..i&docid=b6PzIGMD8hYMlM&w=984&h=655&q=lamborghini%20urus&ved=2ahUKEwibzfmX9qH4AhWNNbkGHSfGAyYQMygCegUIARDfAQ">
+<img src="file:///C:/Users/itall/OneDrive/Imagens/Passo%20giau.jpg">
 
 ## Listas: (☺ Entre com o email institucional da UFV ↓↓↓)
 
@@ -27,4 +27,6 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 
 `numbers.sort()` Coloca em ordem crescente;
 
-`import raandom` -> Biblioteca `x = random.randrange(0, 10)` Serve para gerar números aleatórios; [DUVIDA](https://pynative.com/python-get-random-float-numbers/)
+`import raandom` -> Biblioteca `x = random.randrange(0, 10)` Serve para gerar números aleatórios;
+
+`matrizA[i][j] = (round(random.uniform(0.00, 2.11), 2))` Gera números reais [IR](https://github.com/italloferreira27/ColegeUFV/blob/main/LISTAS/LISTA_08/atv_14.py) [DÚVIDA?](https://pynative.com/python-get-random-float-numbers/)

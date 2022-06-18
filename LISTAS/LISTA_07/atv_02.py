@@ -4,10 +4,10 @@ for i in range(20):
     if(i == 0):
         maior = vetor[i]
         menor = vetor[i]
-    if(vetor[i] >= maior):
+    if(vetor[i] > maior):
         maior = vetor[i]
-    if(vetor[i] <= menor):
-        maior = vetor[i]
+    if(vetor[i] < menor):
+        menor = vetor[i]
 
 print('O valor maior é: ', maior)
 print('O valor menor é: ', menor)
