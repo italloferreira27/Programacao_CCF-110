@@ -30,4 +30,4 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 
 `import raandom` -> Biblioteca `x = random.randrange(0, 10)` Serve para gerar números aleatórios;
 
-`matrizA[i][j] = (round(random.uniform(0.00, 2.11), 2))` Gera números reais [GO TO PROGRAM](https://github.com/italloferreira27/ColegeUFV/blob/main/LISTAS/LISTA_08/atv_14.py) || [DÚVIDA?](https://pynative.com/python-get-random-float-numbers/)
+`matrizA[i][j] = (round(random.uniform(0.00, 2.11), 2))` Gera números reais [GO!](https://github.com/italloferreira27/ColegeUFV/blob/main/LISTAS/LISTA_08/atv_14.py) || [DÚVIDA?](https://pynative.com/python-get-random-float-numbers/)
