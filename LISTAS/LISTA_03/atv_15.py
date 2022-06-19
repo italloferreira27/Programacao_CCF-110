@@ -1,0 +1,5 @@
+a = str(input('Digite o seu nome:'))
+b = float(input('Digite o número de carros que vc vendeu: '))
+c = float(input('Digite o valor total de vendas: R$'))
+d = 500 + (50 * b) + (c*0.05)
+print('Seu sálario esse mês', a,'é de: R$', d)

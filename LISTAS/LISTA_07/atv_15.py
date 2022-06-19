@@ -15,7 +15,7 @@ for i in range(n):
             troca = vetor[i]
             vetor[i] = vetor[j]
             vetor[j] = troca
-print('Vetor oredenado: ', vetor, '\n')
+print('Vetor ordenado: ', vetor, '\n')
 
 for i in range(n):
     for j in range(i+1, n):

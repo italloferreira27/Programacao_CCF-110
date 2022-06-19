@@ -19,6 +19,6 @@ for i in range(10):
 print('|Posição|   |Tempo|   |N° de inscrição|')
 for i in range(10):
     print(f'|{i+1:^7}|   |{corredor[i]:^5}|   ', end="")
-    for c in range(10):
-        if(corredor[i] == compara[c]):
-            print(f'|{c:^15}|')
+    for j in range(10):
+        if(corredor[i] == compara[j]):
+            print(f'|{j:^15}|')
