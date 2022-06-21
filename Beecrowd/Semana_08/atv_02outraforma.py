@@ -1,9 +1,9 @@
 n = int(input())
-x = []
+x = [0 for i in range(n)]
 menor = 0
 p = 0
-#for i in range(n):
-x = [int(x) for x in input().split()]
+for i in range(n):
+    x = list(map(int, input().split(" ")))
 
 for i in range(n):
     if(i == 0):
