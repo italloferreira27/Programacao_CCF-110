@@ -1,6 +1,3 @@
-from stringprep import in_table_c3
-
-
 tamvetor = int(input('Digite o tamanho do vetor: '))
 vetor_1 = []
 vetor_2 = []
