@@ -48,8 +48,6 @@ for i in range(5, 10):
         matriz[i][j] = matriz[i][9-j]
         matriz[i][9-j] = ds
 
-
-
 print('Trocando Diagonal principal pela Diagonal Secundaria')
 
 #Matriz com os valors tocados
