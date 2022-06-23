@@ -20,7 +20,7 @@ for i in range(2):
     for j in range(1-i, 2-i):
         ds *= matriz[i][j]
 
-print(f'Pdp: {dp}   Pds: {ds}')
-determinante = ds - dp
+print(f'Prod_dp: {dp}   Prod_ds: {ds}')
+determinante = dp - ds
 
 print(determinante)

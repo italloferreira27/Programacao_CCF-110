@@ -1,10 +1,11 @@
 ## COISA BOA
 
-Here are the first period programming works in Python, by Professor Nascif.
+Here are the first period programming works.
 
-Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
+Aqui estão os programas do primeiro periodo.
 
 **♣ [These contents can be seen here](https://ava.ufv.br/course/view.php?id=6098) ♣**
+
 **♣ [Estes conteúdos podem ser vistos aqui](https://ava.ufv.br/course/view.php?id=6098) ♣**
 
 <img src="file:///C:/Users/itall/OneDrive/Imagens/Passo%20giau.jpg">
@@ -19,7 +20,8 @@ Aqui estão os programas do primeiro periodo em Python, do professor Nascif.
 - [LISTA_06](https://docs.google.com/document/d/1vcVO7cLhcaTW_3rfB3YSttshRPpEWaI4IZpPBusQ7ZE/edit?usp=sharing)
 - [LISTA_07](https://docs.google.com/document/d/1Tv7yOdpobqkRvVn-2ykqPmPp8HCFbcvETTFGZN4Ix_A/edit?usp=sharing)
 - [LISTA_08](https://docs.google.com/document/d/13RQuzvucoUxfEcuO0gLhj1WOzSeK541vQPy5agaokS0/edit?usp=sharing)
-- [LISTA_09]()
+- [LISTA_09](https://docs.google.com/document/d/14_eoAbRui9iCVBphYJ-h_GjqlStlrnafHkTjsxOO4Y4/edit?usp=sharing)
+- [LISTA_10](https://docs.google.com/document/d/1TpWPuTeUhSs8qsR6jOvLmuTE3vaGuhrItxYFbgqQTTw/edit?usp=sharing)
 
 ## ALGUNS COMANDOS
 `print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`;
