@@ -9,12 +9,12 @@ cont = 1
 print('Preencha o vetor 1:')
 for i in range(tam1):
     vetor1[i] = int(input())
-#vetor1 = list(map(int, input().split(" "))) #MUITO ROUBADA
+#vetor1 = list(map(int, input().split(" "))) #MUITO ROUBADO
 
 print('Preencha o vetor 2: ')
 for i in range(tam2):
     vetor2[i] = int(input())
-#vetor2 = list(map(int, input().split(" "))) #MUITO ROUBADA
+#vetor2 = list(map(int, input().split(" "))) #MUITO ROUBADO
 
 if(tam1 < tam2):
     for i in range(tam1):
