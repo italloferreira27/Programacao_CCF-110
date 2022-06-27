@@ -1,0 +1,6 @@
+frase = input('Frase: ')
+antiga = input('Antiga: ')
+nova = input('Nova: ')
+restante = frase.rsplit(antiga, 1)
+frase = nova.join(restante)
+print(frase)
