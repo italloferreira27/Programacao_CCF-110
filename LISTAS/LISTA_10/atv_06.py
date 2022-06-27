@@ -1,5 +1,5 @@
 tm = 1
-achei = 0
+#achei = 0
 valor = True
 matriz = [[0 for j in range(2)] for i in range(tm)]
 
