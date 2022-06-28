@@ -13,7 +13,7 @@ for i in range(3):
 print()
 
 #MATRIZ GIRA 180°
-for i in range(3):
+for i in range(2, -1, -1):
     for j in range(2, -1, -1):
-        print(f'{matriz[j][i]}', end="  ")
+        print(f'{matriz[i][j]}', end="  ")
     print()
