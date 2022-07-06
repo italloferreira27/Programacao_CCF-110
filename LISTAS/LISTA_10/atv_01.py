@@ -24,5 +24,5 @@ for i in range(maior):
             cont += 1
             #vetor2[i] += 1
     vetor2[i] = cont
-print(vetor1, '\n')
+print('\n',vetor1)
 print(vetor2)
