@@ -30,9 +30,10 @@ def ip_valido(ip_string):
             return False
     return True
 
-nome_arquivo = input()
+nome_arquivo = input('Arquivo de IPs: ')
 ips = open(nome_arquivo, "r")
 lista_ips = ips.read().split("\n")
+ips.close()
 
 validos = []
 invalidos = []
@@ -44,8 +45,8 @@ for ip in lista_ips:
         invalidos.append(ip)
 
 if len(validos) > 0 or len(invalidos) > 0:
-    arquivo_valido = open("validos.txt", "wt")
-    arquivo_invalido = open("invalidos.txt", "wt")
+    arquivo_valido = open("validos.txt", "w")
+    arquivo_invalido = open("invalidos.txt", "w")
     
     if len(validos) > 0:
         for valido in validos:
@@ -57,5 +58,6 @@ if len(validos) > 0 or len(invalidos) > 0:
     
     arquivo_valido.close()
     arquivo_invalido.close()
+    print('Os Ips foram analizados!')
 else:
-    print("O arquivo 1.txt com a lista de ips não existe")
+    print("O arquivo de IPs está vazio")

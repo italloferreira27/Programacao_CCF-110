@@ -34,19 +34,22 @@ arquivo3.close()
 #Utilizei↓
 #https://pt.stackoverflow.com/questions/485810/uma-fun%C3%A7%C3%A3o-que-recebe-como-argumentos-os-nomes-de-dois-arquivos
 
-Arquivo Aluno↓
+ARQUIVOS↓
+aluno.txt
 Sophia MARQUES
-Maria Julia  MACHADO
+Maria Julia MACHADO
 Maria Cecilia LOPES
 Maria Clara LIMA
-Heloisa  GONCALVES
+Heloisa GONCALVES
+Itallo Winicios
 
-Arquivo notas↓
+nota.txt
 10 20
 30 40
-50 60
-70 80
-90 100
+50 61
+70 60
+90 99
+100 99
 
 '''
 lista = []
@@ -60,11 +63,11 @@ fNota = open(arqnota, 'r')
 notas = fNota.readlines()
 fNota.close()
 
-for n in range(len(alunos)):
-    aluno = alunos[n].replace('\n', '')
-    nota = notas[n].replace('\n', '').split(' ')
-    valor = [int(val) for val in nota]
-    lista.append([aluno,valor])
+for i in range(len(alunos)):
+    aluno = alunos[i].replace('\n', '')
+    nota = notas[i].replace('\n', '').split(' ')
+    valor = [int(j) for j in nota]
+    lista.append([aluno, valor])
     
 arquivo = open('media.txt', 'w')
 for n in range(len(lista)):
@@ -73,3 +76,4 @@ for n in range(len(lista)):
     #media = sum(lista[n][1])/2
     arquivo.write(aluno +' '+str(media)+'\n')
 arquivo.close()
+print('Média Realizada!!!')
