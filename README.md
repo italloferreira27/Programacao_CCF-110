@@ -22,6 +22,7 @@ Aqui estão os programas do primeiro periodo.
 - [LISTA_08](https://docs.google.com/document/d/13RQuzvucoUxfEcuO0gLhj1WOzSeK541vQPy5agaokS0/edit?usp=sharing)
 - [LISTA_09](https://docs.google.com/document/d/14_eoAbRui9iCVBphYJ-h_GjqlStlrnafHkTjsxOO4Y4/edit?usp=sharing)
 - [LISTA_10](https://docs.google.com/document/d/1TpWPuTeUhSs8qsR6jOvLmuTE3vaGuhrItxYFbgqQTTw/edit?usp=sharing)
+- [LISTA_10](https://docs.google.com/document/d/1JECOX2oa9HUFh0RLIj5fUHt685umZe7vH21tV4FfMLc/edit?usp=sharing)
 
 ## ALGUNS COMANDOS
 `print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`;
@@ -30,6 +31,6 @@ Aqui estão os programas do primeiro periodo.
 
 `numbers.sort()` Coloca em ordem crescente;
 
-`import raandom` -> Biblioteca `x = random.randrange(0, 10)` Serve para gerar números aleatórios;
+`import random` -> Biblioteca `x = random.randrange(0, 10)` Serve para gerar números aleatórios;
 
-`matrizA[i][j] = (round(random.uniform(0.00, 2.11), 2))` Gera números reais [GO!](https://github.com/italloferreira27/ColegeUFV/blob/main/LISTAS/LISTA_08/atv_14.py) || [DÚVIDA?](https://pynative.com/python-get-random-float-numbers/)
+`matrizA[i][j] = (round(random.uniform(0.00, 2.11), 2))` Gera números reais [IR!](https://github.com/italloferreira27/ColegeUFV/blob/main/LISTAS/LISTA_08/atv_14.py) || [DÚVIDA?](https://pynative.com/python-get-random-float-numbers/)
