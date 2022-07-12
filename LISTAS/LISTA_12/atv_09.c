@@ -4,16 +4,15 @@
 #include <stdlib.h>
 
 int main(){
-    int a, b;
-    float resultado = 1;
+    int a, b, resultado = 1;
 
-    printf("Digite um valode para A e B: ");
-    scanf("%d" "%d", &a, &b);
+    printf("Digite um valor de para A e B: ");
+    scanf("%d %d", &a, &b);
 
     for(int i = 0; i < b; i++){
         resultado = resultado * a;
     }
 
-    printf("O resultado e: %.0f", resultado);
+    printf("O resultado e: %d", resultado);
     return 0;
 }

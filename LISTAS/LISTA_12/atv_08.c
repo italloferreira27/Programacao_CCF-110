@@ -7,8 +7,7 @@ e este não deve ser considerado.*/
 
 int main(){
     
-    int n;
-    float soma;
+    int n, soma = 0;
     
     while(1){
         printf("Digite um numero: ");
@@ -24,6 +23,6 @@ int main(){
         else
             break;
     }
-    printf("A soma dos numeros e: %.0f", soma);
+    printf("A soma dos numeros e: %d", soma);
     return 0;
 }
