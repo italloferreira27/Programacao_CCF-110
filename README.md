@@ -24,6 +24,7 @@ Aqui estão os programas do primeiro periodo.
 - [LISTA_10](https://docs.google.com/document/d/1TpWPuTeUhSs8qsR6jOvLmuTE3vaGuhrItxYFbgqQTTw/edit?usp=sharing)
 - [LISTA_11](https://docs.google.com/document/d/1JECOX2oa9HUFh0RLIj5fUHt685umZe7vH21tV4FfMLc/edit?usp=sharing)
 - [LISTA_12](https://docs.google.com/document/d/1uT4tTOzmW_V8OUHEWFxMz3xP0XhnFbDm3_kmNiOowtE/edit?usp=sharing)
+- [LISTA_13](https://docs.google.com/document/d/15Pk5GSVRXXwSLft2kUe4YFOUZLUbIDYrQooqvlFg9W8/edit?usp=sharing)
 
 ## ALGUNS COMANDOS
 `print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`;
