@@ -11,7 +11,7 @@ void kel_cel(float x);
 
 int main(){
     int tmp, conv;
-    float temp, celsius, fahrenheit, kelvin;
+    float temp;
     printf("Digite sua temperatura: ");
     scanf("%f", &temp);
     printf("\n0 - Fahrenheit para Celsius;\n1 - Fahrenheit para Kelvin;\n2 - Celsius para Fahrenheit;\n3 - Celsius para Kelvin;\n4 - Kelvin para Fahrenheit;\n5 - Kelvin para Celsius.\nDIGITE A MANEIRA DE CONVERSAO:");

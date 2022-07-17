@@ -74,6 +74,14 @@ s2 = input()
 S2 = list(map(int, s2))
 esp = input().split()
 
+valores = []
+
+for i in esp:
+    if(esp[i] == 'S1'):
+        valores.append(S1)
+    elif(esp[i] == 'S2'):
+        valores.append(S2)    
+
 #Identificando S1 e S2
 if(esp[0] == 'S1'):
     esp[0] = S1
