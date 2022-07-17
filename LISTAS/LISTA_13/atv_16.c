@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void mult(float x1, float x2);
-void divisao(float x1, float x2);
+void divi(float x1, float x2);
 void som(float x1, float x2);
 void sub(float x1, float x2);
 void elv(float x1, float x2);
@@ -19,7 +19,7 @@ int main(){
     mult(x1, x2);
     break;
     case '/':
-    divisao(x1, x2);
+    divi(x1, x2);
     break;
     case '+':
     som(x1, x2);
@@ -41,7 +41,7 @@ void mult(float x1, float x2){
     }
     printf("Resultado: %d", res);
 }
-void divisao(float x1, float x2){
+void divi(float x1, float x2){
     float res;
     res = x1 / x2;
     printf("Resultado: %.2f", res);
