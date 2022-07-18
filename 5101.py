@@ -3,7 +3,7 @@
 def OR(x, y, n):
     vetor = [0 for i in range(n)]
     for i in range(n):
-        if(x[i] or y[i] == 1):
+        if(x[i] == 1 or y[i] == 1):
             vetor[i] = '1'
         else:
             vetor[i] = '0' 
@@ -68,7 +68,7 @@ except ValueError:
 
 a = 0
 val = []
-cont = 0 #Serve para 
+cont = 0 #Serve para indentificar a varialvel "val" quando for 2 operadores
 
 #Identificando S1 e S2 e atribuindo a variavel val
 for i in esp:
@@ -86,34 +86,8 @@ if(len(s1) == n and len(s2) == n):
             valor = False
             break
 
-    if(valor and len(esp) == 3):
-        if(esp[1] == 'OR'):
-            a = OR(val[0], val[1], n)
-
-        if(esp[1] == 'AND'):
-            a = AND(val[0], val[1], n)
-
-        if(esp[1] == 'XOR'):
-            a = XOR(val[0], val[1], n)
-
-        if(esp[1] == 'NAND'):
-            a = NAND(val[0], val[1], n)
-
-        if(esp[1] == 'NOR'):
-            a = NOR(val[0], val[1], n)
-
-        if(esp[1] == 'MOR'):
-            a = MOR(val[0], val[1], n)
-        
-        if(a != 0):
-            for i in range(n):
-                    print(a[i], end="")
-        else:
-            print("ERRO")
-    
-    elif(valor and len(esp) == 5):
-        a = 0
-        for i in range(1, 4, 2):
+    if(valor):
+        for i in range(1, (len(esp) - 1), 2):
             if(esp[i] == 'OR'):
                 a = OR(val[cont], val[cont + 1], n)
 
@@ -131,12 +105,12 @@ if(len(s1) == n and len(s2) == n):
 
             if(esp[i] == 'MOR'):
                 a = MOR(val[cont], val[cont + 1], n)
-
             cont += 1
-            val[1] = a
+            val[1] = list(map(int, a))
+
         if(a != 0):
             for i in range(n):
-                    print(a[i], end="")
+                print(a[i], end="")
         else:
             print("ERRO")
     else:
