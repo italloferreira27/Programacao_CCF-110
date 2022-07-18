@@ -1,4 +1,4 @@
-#Trabalho Prático de Matemática Discreta
+#Trabalho Prático de Matemática Discreta  from shutil import ExecError
 
 def OR(x, y, n):
     vetor = [0 for i in range(n)]
@@ -6,10 +6,8 @@ def OR(x, y, n):
         if(x[i] or y[i] == 1):
             vetor[i] = '1'
         else:
-            vetor[i] = '0'
-    for i in range(n-1):
-        print(vetor[i], end="") 
-    return vetor[n-1]
+            vetor[i] = '0' 
+    return vetor
 
 def AND(x, y, n):
     vetor = [0 for i in range(n)]
@@ -18,9 +16,7 @@ def AND(x, y, n):
             vetor[i] = '1'
         else:
             vetor[i] = '0'
-    for i in range(n-1):
-        print(vetor[i], end="") 
-    return vetor[n-1]
+    return vetor
 
 def XOR(x, y, n):
     vetor = [0 for i in range(n)]
@@ -29,9 +25,7 @@ def XOR(x, y, n):
             vetor[i] = '1'
         else:
             vetor[i] = '0'
-    for i in range(n-1):
-        print(vetor[i], end="") 
-    return vetor[n-1]
+    return vetor
 
 def NAND(x, y, n):
     vetor = [0 for i in range(n)]
@@ -40,9 +34,7 @@ def NAND(x, y, n):
             vetor[i] = '0'
         else:
             vetor[i] = '1'
-    for i in range(n-1):
-        print(vetor[i], end="") 
-    return vetor[n-1]
+    return vetor
 
 def NOR(x, y, n):
     vetor = [0 for i in range(n)]
@@ -51,9 +43,7 @@ def NOR(x, y, n):
             vetor[i] = '1'
         else:
             vetor[i] = '0'
-    for i in range(n-1):
-        print(vetor[i], end="") 
-    return vetor[n-1]
+    return vetor
 
 def MOR(x, y, n):
     vetor = [0 for i in range(n)]
@@ -62,65 +52,94 @@ def MOR(x, y, n):
             vetor[i] = '1'
         else:
             vetor[i] = '0'
-    for i in range(n-1):
-        print(vetor[i], end="") 
-    return vetor[n-1]
+    return vetor
 
 #Entrada dos valores
-n = int(input())
-s1 = input()
-S1 = list(map(int, s1))
-s2 = input()
-S2 = list(map(int, s2))
-esp = input().split()
+try:
+    n = int(input())
+    s1 = input().strip()
+    S1 = list(map(int, s1))
+    s2 = input().strip()
+    S2 = list(map(int, s2))
+    esp = input().split()
+except ValueError:
+    print("ERRO")
+    exit()
 
-valores = []
+a = 0
+val = []
+cont = 0 #Serve para 
 
+#Identificando S1 e S2 e atribuindo a variavel val
 for i in esp:
-    if(esp[i] == 'S1'):
-        valores.append(S1)
-    elif(esp[i] == 'S2'):
-        valores.append(S2)    
-
-#Identificando S1 e S2
-if(esp[0] == 'S1'):
-    esp[0] = S1
-if(esp[0] == 'S2'):
-    esp[0] = S2
-if(esp[2] == 'S1'):
-    esp[2] = S1
-if(esp[2] == 'S2'):
-    esp[2] = S2
-
-if(len(esp) == 5):
-    if(esp[4] == 'S1'):
-        esp[4] = S1
-    if(esp[4] == 'S2'):
-        esp[4] = S2
+    if(i == 'S1'):
+        val.append(S1)
+    elif(i == 'S2'):
+        val.append(S2)  
 
 #Verificando se as informações são validas 
 if(len(s1) == n and len(s2) == n):
-    for i in range(n):
-        if(s1[i] != 0 or s1[i] != 1 and s2[i] != 0 or s2[i] != 1 ):
+    for j in range(n):
+        if(val[0][j] == 0 or val[0][j] == 1 and val[1][j] == 0 or val[1][j] == 1):
             valor = True
         else:
-            print("ERRO")
+            valor = False
             break
 
     if(valor and len(esp) == 3):
         if(esp[1] == 'OR'):
-            print(OR(esp[0], esp[2], n))
-        if(esp[1] == 'AND'):
-            print(AND(esp[0], esp[2], n))
-        if(esp[1] == 'XOR'):
-            print(XOR(esp[0], esp[2], n))
-        if(esp[1] == 'NAND'):
-            print(NAND(esp[0], esp[2], n))
-        if(esp[1] == 'NOR'):
-            print(NOR(esp[0], esp[2], n))
-        if(esp[1] == 'MOR'):
-            print(MOR(esp[0], esp[2], n))
-        print("ERRO")
+            a = OR(val[0], val[1], n)
 
+        if(esp[1] == 'AND'):
+            a = AND(val[0], val[1], n)
+
+        if(esp[1] == 'XOR'):
+            a = XOR(val[0], val[1], n)
+
+        if(esp[1] == 'NAND'):
+            a = NAND(val[0], val[1], n)
+
+        if(esp[1] == 'NOR'):
+            a = NOR(val[0], val[1], n)
+
+        if(esp[1] == 'MOR'):
+            a = MOR(val[0], val[1], n)
+        
+        if(a != 0):
+            for i in range(n):
+                    print(a[i], end="")
+        else:
+            print("ERRO")
+    
+    elif(valor and len(esp) == 5):
+        a = 0
+        for i in range(1, 4, 2):
+            if(esp[i] == 'OR'):
+                a = OR(val[cont], val[cont + 1], n)
+
+            if(esp[i] == 'AND'):
+                a = AND(val[cont], val[cont + 1], n)
+
+            if(esp[i] == 'XOR'):
+                a = XOR(val[cont], val[cont + 1], n)
+
+            if(esp[i] == 'NAND'):
+                a = NAND(val[cont], val[cont + 1], n)
+
+            if(esp[i] == 'NOR'):
+                a = NOR(val[cont], val[cont + 1], n)
+
+            if(esp[i] == 'MOR'):
+                a = MOR(val[cont], val[cont + 1], n)
+
+            cont += 1
+            val[1] = a
+        if(a != 0):
+            for i in range(n):
+                    print(a[i], end="")
+        else:
+            print("ERRO")
+    else:
+        print("ERRO")
 else:
     print("ERRO")
