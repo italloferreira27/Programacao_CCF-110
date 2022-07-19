@@ -3,7 +3,7 @@
 #include <math.h>
 
 float Delta(float a, float b, float c);
-float Raiz(float b, float del, float a);
+void Raiz(float b, float del, float a);
 
 int main(){
     float a, b, c, d = 0;
@@ -24,20 +24,20 @@ float Delta(float a, float b, float c){
     return del;
 }
 
-float Raiz(float b, float del, float a){
+void Raiz(float b, float del, float a){
     float raiz1, raiz2;
     if(del < 0){
-        return printf("Nao existe raiz real!");
+        printf("Nao existe raiz real!");
     }
     if(del == 0){
         raiz1 = -b / 2*a;
-        return printf("Existe uma raiz: %f", raiz1);
+        printf("Existe uma raiz: %f", raiz1);
     }
     if(del > 0){
         raiz1 = (-b + sqrt(del))/2*a;
         raiz2 = (-b - sqrt(del))/2*a;
         printf("\nExiste duas raizes:\nRaiz 1 = %.2f", raiz1);
-        return(printf("\nRaiz 2 = %.2f", raiz2));
+        printf("\nRaiz 2 = %.2f", raiz2);
     }
     
 }
