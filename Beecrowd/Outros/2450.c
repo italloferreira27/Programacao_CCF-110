@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
  
 int main() {
@@ -13,18 +13,18 @@ int main() {
     }
     for(int i = 0; i < linha; i++){
         for(int j = 0; j < coluna; j++){
-            if(matriz[i][j] != 0){
+            if(matriz[i][j] != 0){ //Número a esquerda
                 for(int k = i+1; k < linha; k++){
                     for(int r = j; r > -1; r--){
                         if(matriz[k][r] != 0)
                             valor += 1;
                     }      
                 }
-                break;
+                j = coluna;
             if(matriz[i][j] == 0 && j == (coluna-1))
                 for(int ii = i+1; ii < linha; ii++){
                     for(int jj = 0; jj < coluna; jj++){
-                        if(matriz[ii][jj] != 0)
+                        if(matriz[ii][jj] != 0) //colunas sem o zero
                             valor += 1;
                     }
                 }
@@ -32,12 +32,12 @@ int main() {
         }
     }
     if(valor == 0)
-        printf("S");
+        printf("S\n");
     else
-        printf("N");
+        printf("N\n");
     return 0;
-}*/
-
+}
+/*
 //https://www.youtube.com/watch?v=k2VBdNGBvZo
 #include <stdio.h>
 #include <stdlib.h>
@@ -47,7 +47,7 @@ char MatrizEscada(int linha, int coluna);
 int main() {
     int linha, coluna;
     scanf("%d %d", &linha, &coluna);
-    printf("%c", MatrizEscada(linha, coluna));
+    printf("%c\n", MatrizEscada(linha, coluna));
 
 }
 char MatrizEscada(int linha, int coluna){
@@ -83,4 +83,4 @@ char MatrizEscada(int linha, int coluna){
             }
         }
     return 'S';
-}
+}*/
