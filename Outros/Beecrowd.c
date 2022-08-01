@@ -54,4 +54,29 @@ int main(){
     }
     return 0;
 }
-*/
+
+//1593 ERRADA!
+#include <stdio.h>
+#include <stdlib.h>
+
+int Cont_Bin(int);
+
+int main(){
+    int T, i;
+    double num;
+    scanf("%d", &T);
+    for (i = 0; i < T; i++){
+        scanf("%lf", &num);
+        printf("%d\n", Cont_Bin(num));
+    }
+    return 0;
+}
+int Cont_Bin(int x){
+    int cont = 0;
+    while(x > 0){
+        if(x % 2 == 1)
+            cont += 1;
+        x /= 2;
+    }
+    return cont;
+}*/
