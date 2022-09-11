@@ -1,4 +1,4 @@
-## COISA BOA
+## UFV - College
 
 Here are the first period programming works.
 
@@ -25,6 +25,8 @@ Aqui estão os programas do primeiro periodo.
 - [LISTA_11](https://docs.google.com/document/d/1JECOX2oa9HUFh0RLIj5fUHt685umZe7vH21tV4FfMLc/edit?usp=sharing)
 - [LISTA_12](https://docs.google.com/document/d/1uT4tTOzmW_V8OUHEWFxMz3xP0XhnFbDm3_kmNiOowtE/edit?usp=sharing)
 - [LISTA_13](https://docs.google.com/document/d/15Pk5GSVRXXwSLft2kUe4YFOUZLUbIDYrQooqvlFg9W8/edit?usp=sharing)
+- [LISTA_14](https://docs.google.com/document/d/1gXDfyGe_laGKo1N0IP2uYtudkXOTEHse2zx_zVEfLiE/edit?usp=drivesdk)
+- [LISTA_15](https://docs.google.com/document/d/1uRParQ-Zd92FkMFlTGdPOAgXM_HIJbXFhVV5OP0UZGg/edit?usp=drivesdk)
 
 ## ALGUNS COMANDOS
 `print(f" {x:.2f}")`, Controlar a quantidade de um `float` depois da virgula no `format`;
