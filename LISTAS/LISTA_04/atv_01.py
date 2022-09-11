@@ -1,0 +1,6 @@
+k = float(input("Digite o valor de k: "))
+n = float(input("Digite o valor de n: "))
+r = float(input("Digite o valor de r: "))
+ak = float(input("Digite o valor de ak: "))
+an = (ak+((n-k)*r))
+print("P.A= ", an)

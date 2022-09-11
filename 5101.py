@@ -1,3 +1,4 @@
+#Trabalho prático de M.D.
 def OR(x, y, n):
     vetor = [0 for i in range(n)]
     for i in range(n):
