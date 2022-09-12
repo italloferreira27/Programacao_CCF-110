@@ -8,8 +8,6 @@ Aqui estão os programas do primeiro periodo.
 
 **♣ [Estes conteúdos podem ser vistos aqui](https://ava.ufv.br/course/view.php?id=6098) ♣**
 
-<img src="file:///C:/Users/itall/OneDrive/Imagens/Passo%20giau.jpg">
-
 ## Listas: (☺ Entre com o email institucional da UFV ↓↓↓)
 
 - [LISTA_01](https://docs.google.com/document/d/12S2X-20y3PvfeILfsQKRh6mubcw0q3ANTVgDLvjlyUc/edit?usp=sharing)
